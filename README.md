@@ -1,1 +1,1 @@
-https://vladislava96.github.io/giphy/html
+https://vladislava96.github.io/giphy/dist/
