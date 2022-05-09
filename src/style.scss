@@ -1,0 +1,41 @@
+@import "../sass/custom.scss";
+
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+@import "~bootstrap/scss/utilities";
+
+@import "~bootstrap/scss/forms";
+@import "~bootstrap/scss/buttons";
+@import "~bootstrap/scss/containers";
+@import "~bootstrap/scss/button-group";
+
+body {
+    background-image: url(background28.jpg);
+    background-attachment: fixed;
+}
+
+.container {
+    margin: 20px auto;
+    padding: 20px 0;
+    background-color: rgb(255, 179, 151);
+    text-align: center;
+}
+
+.search-gif, .gif{
+    margin: 0 auto;
+    padding: 20px 0;
+    text-align: center;
+    background-color: rgb(175, 218, 232);
+    z-index: 10;
+}
+
+.search {
+    margin: 20px auto;
+    max-width: 400px;
+}
+ 
+.padiantor-button {
+    margin: 20px auto;
+    max-width: 100px;
+}

@@ -1,0 +1,28 @@
+{
+  "name": "giphy",
+  "version": "0.0.1",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "build-watch": "webpack --watch"
+  },
+  "author": "Vladislava <vladislavaskrabova@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "^6.7.1",
+    "postcss": "^8.4.13",
+    "postcss-loader": "^6.2.1",
+    "sass": "^1.51.0",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "@giphy/js-fetch-api": "^4.1.2",
+    "@popperjs/core": "^2.11.5",
+    "bootstrap": "^5.1.3"
+  }
+}
